@@ -23,7 +23,7 @@ const HeroSection = () => {
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
               Passionate about leveraging Artificial Intelligence to solve real-world problems. 
-              CAPACITI Tech Career Accelerator graduate with hands-on experience in Generative AI, 
+              CAPACITI Tech Career Accelerator learner with hands-on experience in Generative AI, 
               NLP, LLMs, and ethical AI practices. Ready to contribute to innovative AI solutions 
               that make a difference.
             </p>
