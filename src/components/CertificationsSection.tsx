@@ -5,37 +5,31 @@ const certifications = [
     title: 'IBM AI Foundations',
     issuer: 'IBM via Coursera',
     description: 'Comprehensive foundation in AI concepts, applications, and ethical considerations.',
-    year: '2024',
   },
   {
     title: 'Google AI Essentials',
     issuer: 'Google via Coursera',
     description: 'Understanding of Google AI tools and machine learning fundamentals.',
-    year: '2024',
   },
   {
     title: 'AWS Machine Learning',
     issuer: 'AWS via Coursera',
     description: 'Cloud-based machine learning services and deployment strategies.',
-    year: '2024',
   },
   {
     title: 'DeepLearning.AI Specialization',
     issuer: 'DeepLearning.AI via Coursera',
     description: 'Deep learning fundamentals including neural networks and optimization.',
-    year: '2024',
   },
   {
     title: 'Generative AI Fundamentals',
     issuer: 'Coursera',
     description: 'Practical applications of generative AI including LLMs and prompt engineering.',
-    year: '2024',
   },
   {
     title: 'CAPACITI AI Bootcamp',
     issuer: 'CAPACITI',
     description: 'Intensive AI training program covering practical project development.',
-    year: '2024',
   },
 ];
 
@@ -65,12 +59,7 @@ const CertificationsSection = () => {
                   <Award className="text-primary" size={24} />
                 </div>
                 <div className="flex-1">
-                  <div className="flex items-start justify-between gap-2">
-                    <h3 className="text-lg font-semibold leading-tight">{cert.title}</h3>
-                    <span className="text-xs text-primary font-mono bg-primary/10 px-2 py-1 rounded">
-                      {cert.year}
-                    </span>
-                  </div>
+                  <h3 className="text-lg font-semibold leading-tight">{cert.title}</h3>
                   <p className="text-sm text-primary/80 mt-1">{cert.issuer}</p>
                   <p className="text-muted-foreground text-sm mt-2">{cert.description}</p>
                 </div>
